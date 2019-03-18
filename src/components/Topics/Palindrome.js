@@ -35,7 +35,7 @@ class Palindrome extends Component {
             <div className="puzzleBox filterStringPB">
                 <h4>Palindrome</h4>
                 <input onChange={(e) => this.handleClick(e.target.value)} className="inputLine"></input>
-                <button onClick={() => this.pali(this.state.userInput)} className="confirmationButton"></button>
+                <button onClick={() => this.pali(this.state.userInput)} className="confirmationButton">Submit</button>
                 <span className="resultsBox">Palidrome: {this.state.palindrome}</span>
             </div>
         )

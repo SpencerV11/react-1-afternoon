@@ -49,7 +49,7 @@ class EvenAndOdd extends Component {
                 <button 
                 className="confirmationButton"
                 onClick={() => this.evensAndOdds(this.state.userInput)}>
-                Split</button>
+                Split Array</button>
                 <span className="resultsBox"> Evens: {JSON.stringify(this.state.evenArray)}</span>
                 <span className="resultsBox"> Odds: {JSON.stringify(this.state.oddArray)}</span>
             </div>
